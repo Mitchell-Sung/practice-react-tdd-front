@@ -13,7 +13,7 @@ test('The counter starts at 0', () => {
 
 /**
   NOTE:
-  
+
   expect(counterElement).toBe(0); 을 사용하게 되면 에러가 발생된다. 왜냐하면
   toBe() 함수는 <h3 data-testid="counter">{counter}</h3> 의 전체를 검사하기 때문이다.
  */
