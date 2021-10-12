@@ -1,9 +1,19 @@
-const Increment = () => {
+import '../../styles/button.css';
+
+const Increment = ({ counter, setCounter }) => {
+  const increaseCounter = (e) => {
+    setCounter(counter + 1);
+  };
+
   return (
-    <>
-      <h3 data-testid="incres-button">Increment</h3>
-    </>
+    <div>
+      <button data-testid="increase-button" onClieck={increaseCounter}>
+        +
+      </button>
+    </div>
   );
 };
+
+// TODO: PropsTypes
 
 export default Increment;

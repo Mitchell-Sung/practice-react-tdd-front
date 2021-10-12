@@ -1,8 +1,8 @@
 const Decrement = () => {
   return (
-    <>
-      <h3 data-testid="decres-button">Decrement</h3>
-    </>
+    <div>
+      <button data-testid="decrease-button">-</button>
+    </div>
   );
 };
 

@@ -1,13 +1,11 @@
-import { useState } from 'react';
-
-const Counter = () => {
-  const [counter, setCounter] = useState(0);
-
+const Counter = ({ counter }) => {
   return (
-    <>
+    <div>
       <h3 data-testid="counter">{counter}</h3>
-    </>
+    </div>
   );
 };
+
+// TODO: PropsType
 
 export default Counter;
