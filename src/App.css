@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.onOff-button {
+  text-align: center;
+  border: solid 1px #ff4500;
+}
+
 button {
   background-color: #4caf50;
   border: none;
