@@ -1,0 +1,33 @@
+.main-container {
+  justify-content: center;
+  border: solid 1px #ff4500;
+}
+
+.counter-container {
+  text-align: center;
+  border: solid 1px #ff4500;
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  margin: 5px 5px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 75px;
+}
+
+button:hover {
+  background-color: #8a58b7;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
